@@ -266,10 +266,10 @@ input.search-form:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background-color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(255, 255, 255, 0);
   padding: 15px 0;
   padding-bottom: 0;
-  box-shadow: 0px 2px 5px #AAA;
+  box-shadow: 0px 1px 5px #000000;
   transition: background .5s ease-in-out,padding .5s ease-in-out;
 }
 
@@ -277,6 +277,7 @@ input.search-form:hover {
   background: #00aeef;
   padding: 0px;
   transition: background .5s ease-in-out,padding .5s ease-in-out;
+  box-shadow: none;
 }
 
  .navbar-nav{
@@ -2601,4 +2602,50 @@ border: 1px solid #e3e3e3;
   font-size: 20px;
   border-bottom: 1px solid;
   padding-bottom: 5px;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+	background-color: #00aeef;
+}
+.navbar-scroll .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+	background-color: #ffffff;
+}
+.navbar-scroll .navbar-toggle:hover, .navbar-scroll .navbar-toggle:focus {
+	background-color: #00aeef;
+}
+.navbar-scroll .navbar-toggle {
+	border-color: #ffffff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	padding: 5px 12px;
+	margin: 0;
+	border-radius: 3px;
+	color: #ffffff;
+	line-height: 24px;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.navbar-scroll .navbar-nav > li > a {
+	padding: 5px 12px;
+	margin: 0;
+	border-radius: 3px;
+	color: #ffffff;
+	line-height: 24px;
+	display: inline-block;
+	font-weight: normal;
+}
+
+.navbar-scroll .navbar-nav > li {
+	padding-bottom: 15px;
+}
+
+@media (max-width: 767px){
+	img {
+		margin-top: 8px; 
+	}
 }
