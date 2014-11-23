@@ -42,12 +42,17 @@
             <div id="navbar" class="collapse navbar-collapse navbar-right">
                 <ul class="nav navbar-nav">
                     <li><a class="change" href="index.html">Beranda</a></li>
-                    <li><a class="change" href="#">Layanan</a></li>
-                    <!--<li><a class="change" href="#.qpos">QPOS</a></li>
-                    <li><a class="change" href="#.qstore">QStore</a></li>
-                    <li><a class="change" href="#.qdelivery">QDelivery</a></li>
-                    <li><a class="change" href="#.qdistribution">QDistribution</a></li>
-                    -->
+                    <li class="dropdown">
+		              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Layanan <span class="caret"></span></a>
+		              <ul class="dropdown-menu" role="menu">
+	                    <li><a class="change" href="#.qpos">QPOS</a></li>
+	                    <li><a class="change" href="#.qstore">QStore</a></li>
+	                    <li><a class="change" href="#.qdelivery">QDelivery</a></li>
+	                    <li><a class="change" href="#.qdistribution">QDistribution</a></li>
+		              </ul>
+		            </li>
+
+                    
                     <li><a class="change" href="tour.html">Langkah Memulai</a></li>
                     <li><a class="change" href="login.html">Masuk/Daftar</a></li>
                     <li><a class="change" href="aboutus.html">Hubungi Kami</a></li>
@@ -494,6 +499,7 @@
     AA_CONFIG.scrollOffset=35;
 
     $( document ).ready(function() {
+    	$('.dropdown-toggle').dropdown()
          $("#buttom-logo").hide();
          $(window).scroll(function(){
              var distanceY = $(window).scrollTop(),
