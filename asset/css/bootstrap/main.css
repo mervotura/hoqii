@@ -2672,6 +2672,11 @@ border: 1px solid #e3e3e3;
 	left: 0;
 }
 
+ .navbar-nav .dropdown {
+	margin-left: 35px;
+	padding-bottom: 5px;
+}
+
 @media (max-width: 767px){
 	img {
 		margin-top: 8px; 
