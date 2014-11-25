@@ -5,7 +5,7 @@
 	},
 	{
 		"name": "Layanan",
-		"link": "#/",
+		"link": "javascript:",
 		"menus": [
 			{
 				"name": "QPOS",
