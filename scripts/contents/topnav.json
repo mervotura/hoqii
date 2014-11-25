@@ -1,0 +1,40 @@
+[
+	{
+		"name": "Beranda",
+		"link": "#/"
+	},
+	{
+		"name": "Layanan",
+		"link": "javascript:",
+		"menus": [
+			{
+				"name": "QPOS",
+				"link": "javascript:",
+				"target": "#qpos"
+			},
+			{
+				"name": "QStore",
+				"link": "javascript:",
+				"target": "#qstore"
+			},
+			{
+				"name": "QDelivery",
+				"link": "javascript:",
+				"target": "#qdelivery"
+			},
+			{
+				"name": "QDistribution",
+				"link": "javascript:",
+				"target": "#qdistribution"
+			}
+		]
+	},
+	{
+		"name": "Masuk/Daftar",
+		"link": "#/login"
+	},
+	{
+		"name": "Hubungi Kami",
+		"link": "#/contact-us"
+	}
+]
