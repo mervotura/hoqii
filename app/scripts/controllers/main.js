@@ -8,7 +8,8 @@
  * Controller of the hoqiiApp
  */
 angular.module('hoqiiApp')
-  .controller('MainCtrl', function ($scope, $window) {
+  .controller('MainCtrl', function ($scope, $animate, $window) {
+    $animate.enabled(false);
     $scope.slide = {
     	'interval': 5000,
     	'slides': [

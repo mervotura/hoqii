@@ -2685,6 +2685,10 @@ border: 1px solid #e3e3e3;
   width: 5%;
 }
 
+.main-content {
+  min-height: 545px;
+}
+
 @media (max-width: 767px){
   img {
     margin-top: 8px; 

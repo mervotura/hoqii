@@ -54,7 +54,7 @@
     </span>
 
     <!-- Add your site or application content here -->
-    <div ng-view="" class="main-content"></div>
+    <div ng-view=""></div>
 
     <footer id="footer" class="midnight-blue" ng-controller="footerCtrl">
       <div class="container">
