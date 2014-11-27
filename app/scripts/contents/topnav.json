@@ -29,9 +29,13 @@
 			}
 		]
 	},
-	{
+    {
 		"name": "Masuk/Daftar",
 		"link": "#/login"
+	},
+	{
+		"name": "Tour",
+		"link": "#/tour"
 	},
 	{
 		"name": "Hubungi Kami",
